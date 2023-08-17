@@ -1,10 +1,10 @@
 # People Counting System for Metro Bogeys
 
 **Overview:**
-The People Counting System for Metro Bogeys is an intelligent solution designed to provide real-time crowd estimation in metro train carriages to assist commuters in making informed decisions about their travel. The system utilizes computer vision and deep learning techniques, specifically YOLOv4 (You Only Look Once version 3), to detect and count the number of people present in each metro bogey. LED lights positioned at the entry points of the train carriages will change color to indicate whether the bogey is crowded (red light) or uncrowded (green light), allowing passengers to make better-informed choices and optimize their travel experience.
+The People Counting System for Metro Bogeys is an intelligent solution designed to provide real-time crowd estimation in metro train carriages to assist commuters in making informed decisions about their travel. The system utilizes computer vision and deep learning techniques, specifically Ultralytics YOLOv8 (You Only Look Once), to detect and count the number of people present in each metro bogey. LED lights positioned at the entry points of the train carriages will change color to indicate whether the bogey is crowded (red light) or uncrowded (green light), allowing passengers to make better-informed choices and optimize their travel experience.
 
 **Key Features:**
-1. Real-time People Counting: The system performs real-time object detection using YOLOv4 to accurately count the number of people present in each metro bogey as the train arrives at the platform.
+1. Real-time People Counting: The system performs real-time object detection using Ultralytics YOLOv8 to accurately count the number of people present in each metro bogey as the train arrives at the platform.
 
 2. LED Light Indicators: LED lights at the entrance of each bogey change color based on the number of people detected. A red light indicates a crowded bogey, while a green light signifies an uncrowded bogey.
 
@@ -19,9 +19,9 @@ The People Counting System for Metro Bogeys is an intelligent solution designed 
 
 2. Data Preparation: Annotate the images to define bounding boxes around people, and convert the annotations to YOLO format.
 
-3. Model Configuration: Fine-tune the YOLOv4 architecture to detect people in metro bogey images.
+3. Model Configuration: Fine-tune the Ultralytics YOLOv8 architecture to detect people in metro bogey images.
 
-4. Training: Train the YOLOv4 model on the annotated dataset, optimizing it to accurately count people in different bogey scenarios.
+4. Training: Train the YOLO model on the annotated dataset, optimizing it to accurately count people in different bogey scenarios.
 
 5. Model Evaluation: Evaluate the model's performance on a validation dataset to ensure its accuracy and generalization.
 
